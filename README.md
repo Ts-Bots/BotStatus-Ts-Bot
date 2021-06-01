@@ -27,7 +27,6 @@ This is a Bot status bot which shows you the status of all your bot (s) and it i
 Example:- bot1 bot2 bot2 ( Give a single space after each bot ) 
 
 Note:- Bot Token not required 
-
 ```
 You can deploy the bot using heroku
 
