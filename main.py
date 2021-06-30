@@ -42,7 +42,7 @@ def main():
             time_now = datetime.datetime.now(pytz.timezone('Asia/Kolkata'))
             formatted_time = time_now.strftime("%d %B %Y %I:%M %p")
 
-            edit_text += f"**Updated on {formatted_time} (**IST**)**"
+            edit_text += f"**Updated on {formatted_time} (IST)**"
 
             for status_message_id in status_message_ids:
                 user_client.edit_message_text(int(update_channel), status_message_id,
@@ -50,7 +50,7 @@ def main():
                 time.sleep(5)
             print(f"[INFO] everything done! sleeping for 1 hour...")
 
-            time.sleep(60 * 60)
+            time.sleep(7200)
 
 
 if __name__ == "__main__":
