@@ -50,7 +50,7 @@ def main():
                 time.sleep(5)
             print(f"[INFO] everything done! sleeping for 3 hours...")
 
-            time.sleep(10800)
+            time.sleep(864000)
 
 
 if __name__ == "__main__":
